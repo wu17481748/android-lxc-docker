@@ -1,4 +1,4 @@
-# lxc-docker
+# 安卓lxc-docker内核修改
 
 # 开启配置
 
@@ -6,9 +6,10 @@
 
 # 关闭:ANDROID_PARANOID_NETWORK
 
-#CONFIG_ANDROID_PARANOID_NETWORK is not set
+#..CONFIG_ANDROID_PARANOID_NETWORK is not set
 
 # 打补丁1
-
+xt_qtagui.patch
 
 # 打补丁2
+cgroup.patch
