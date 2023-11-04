@@ -1,5 +1,5 @@
---- android-kernel/net/netfilter/xt_qtaguid.c	2023-07-02 00:07:55.000000000 +0800
-+++ android-kernel/net/netfilter/xt_qtaguid.c	2023-07-02 05:20:40.000000000 +0800
+--- a/net/netfilter/xt_qtaguid.c	2023-07-02 00:07:55.000000000 +0800
++++ a/net/netfilter/xt_qtaguid.c	2023-07-02 05:20:40.000000000 +0800
 @@ -738,7 +738,7 @@ static int iface_stat_fmt_proc_show(stru
  {
  	struct proc_iface_stat_fmt_info *p = m->private;
