@@ -1,6 +1,6 @@
 # 安卓lxc-docker内核修改
 
-# 开启/关闭配置
+# 开启/关闭必要配置(通用gki内核谨慎开启某些配置会导致不开机)
 
 
 ./LXC-DOCKER-OPEN-CONFIG.sh <xxx_defconfig> -w
